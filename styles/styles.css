@@ -1,5 +1,11 @@
+:root {
+    --primary-color: darkblue;
+
+}
+
 nav {
-    background-color: darkblue;
+
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -10,7 +16,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 img {
@@ -47,7 +53,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 2px solid darkblue;
+    border: 2px solid var(--primary-color);
     padding: 5px;
     box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
 
