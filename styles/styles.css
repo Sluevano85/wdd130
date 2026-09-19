@@ -30,7 +30,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 20px gray;
 }
 
 p {
@@ -51,7 +51,7 @@ aside {
 }
 
 aside img {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -64,7 +64,7 @@ aside h2 {
 
 main img {
     float: right;
-    width: 200px;
+    width: 250px;
     height: auto;
     border: 2px solid var(--primary-color);
     padding: 5px;
