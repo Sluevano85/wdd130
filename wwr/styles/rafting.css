@@ -3,7 +3,6 @@
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -44,6 +43,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+}
+
+.socialmedia img {
+    width: 30px;
 }
 
 .socialmedia a {
