@@ -64,6 +64,11 @@ article {
     padding: 8px;
 }
 
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .socialmedia img {
     width: 30px;
 }
