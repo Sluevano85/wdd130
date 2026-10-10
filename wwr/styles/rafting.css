@@ -87,7 +87,8 @@ article {
     height: auto;
 }
 
-.history {
+.history,
+.staff {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
@@ -114,7 +115,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -136,4 +137,29 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: block;
+    margin-top: 16px;
+}
+
+fieldset {
+    padding: 8px;
+    margin-bottom: 16px;
 }
